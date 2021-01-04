@@ -16,8 +16,8 @@ def type_slow(value,speed):
         pyautogui.press(sentense[i])
         time.sleep(speed)
         
-first_name = random.choice(("Super", "Retarded", "Great", "Sexy", "Vegan", "Brave", "Shy", "Cool", "Poor", "Rich", "Fast", "Gummy", "Yummy", "Masked", "Unusual", "American", "Bisexual", "MLG", "Mlg", "lil", "Lil"))
-last_name = random.choice(("Coder", "Vegan", "Man", "Hacker", "Horse", "Bear", "Goat", "Goblin", "Learner", "Killer", "Woman", "Programmer", "Spy", "Stalker", "Spooderman", "Carrot", "Goat", "Quickscoper", "Quickscoper"))
+first_name = random.choice(("Super", "Epicer", "Great", "Sexy", "Vegan", "Brave", "Shy", "Cool", "Poor", "Rich", "Fast", "Gummy", "Yummy", "Masked", "Unusual", "American", "Bisexual", "MLG", "Mlg", "lil", "Lil"))
+last_name = random.choice(("Coder", "Vegan", "Man", "Attacker", "Horse", "Bear", "Goat", "Goblin", "Learner", "Frost", "Woman", "Programmer", "Spy", "Hause", "Spooderman", "Carrot", "Goat", "Quickscoper", "Quickscoper"))
 password = random_generator(10)
 
 driver = webdriver.Chrome("driver")
